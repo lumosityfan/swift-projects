@@ -1,0 +1,1 @@
+This project was created from the Hacking with Swift Project Five and constituted making words out of one 8-letter words out of a set of them that was auto-generated. The features that I added was that you could store the number of words per letter that was guessed correctly.
