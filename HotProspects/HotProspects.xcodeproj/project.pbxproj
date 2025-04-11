@@ -6,41 +6,58 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7F234BF92D8F11C70070A946 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 7F234BF82D8F11C70070A946 /* CodeScanner */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		7FFE98C32D89F2AB00BDE1C5 /* PBXContainerItemProxy */ = {
+		7F234BD32D8F06BD0070A946 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7FFE98AA2D89F2A600BDE1C5 /* Project object */;
+			containerPortal = 7F234BBA2D8F06B90070A946 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FFE98B12D89F2A600BDE1C5;
+			remoteGlobalIDString = 7F234BC12D8F06B90070A946;
 			remoteInfo = HotProspects;
 		};
-		7FFE98CD2D89F2AB00BDE1C5 /* PBXContainerItemProxy */ = {
+		7F234BDD2D8F06BD0070A946 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7FFE98AA2D89F2A600BDE1C5 /* Project object */;
+			containerPortal = 7F234BBA2D8F06B90070A946 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FFE98B12D89F2A600BDE1C5;
+			remoteGlobalIDString = 7F234BC12D8F06B90070A946;
 			remoteInfo = HotProspects;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7FFE98B22D89F2A600BDE1C5 /* HotProspects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotProspects.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FFE98C22D89F2AB00BDE1C5 /* HotProspectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotProspectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FFE98CC2D89F2AB00BDE1C5 /* HotProspectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotProspectsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F234BC22D8F06B90070A946 /* HotProspects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HotProspects.app; path = "/Users/jeffxie/Desktop/swift-projects/HotProspects/build/Debug-iphoneos/HotProspects.app"; sourceTree = "<absolute>"; };
+		7F234BD22D8F06BD0070A946 /* HotProspectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HotProspectsTests.xctest; path = "/Users/jeffxie/Desktop/swift-projects/HotProspects/build/Debug-iphoneos/HotProspects.app/PlugIns/HotProspectsTests.xctest"; sourceTree = "<absolute>"; };
+		7F234BDC2D8F06BD0070A946 /* HotProspectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HotProspectsUITests.xctest; path = "/Users/jeffxie/Desktop/swift-projects/HotProspects/build/Debug-iphoneos/HotProspectsUITests-Runner.app/PlugIns/HotProspectsUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7FBFEA442D90AD6300758AA8 /* Exceptions for "HotProspects" folder in "HotProspects" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Users/jeffxie/Desktop/swift-projects/HotProspects/HotProspects/CodeScanner",
+			);
+			target = 7F234BC12D8F06B90070A946 /* HotProspects */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7FFE98B42D89F2A600BDE1C5 /* HotProspects */ = {
+		7F234BC42D8F06B90070A946 /* HotProspects */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7FBFEA442D90AD6300758AA8 /* Exceptions for "HotProspects" folder in "HotProspects" target */,
+			);
 			path = HotProspects;
 			sourceTree = "<group>";
 		};
-		7FFE98C52D89F2AB00BDE1C5 /* HotProspectsTests */ = {
+		7F234BD52D8F06BD0070A946 /* HotProspectsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HotProspectsTests;
 			sourceTree = "<group>";
 		};
-		7FFE98CF2D89F2AB00BDE1C5 /* HotProspectsUITests */ = {
+		7F234BDF2D8F06BD0070A946 /* HotProspectsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HotProspectsUITests;
 			sourceTree = "<group>";
@@ -48,21 +65,22 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7FFE98AF2D89F2A600BDE1C5 /* Frameworks */ = {
+		7F234BBF2D8F06B90070A946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F234BF92D8F11C70070A946 /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F234BCF2D8F06BD0070A946 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FFE98BF2D89F2AB00BDE1C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7FFE98C92D89F2AB00BDE1C5 /* Frameworks */ = {
+		7F234BD92D8F06BD0070A946 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,157 +90,150 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7FFE98A92D89F2A600BDE1C5 = {
+		7F234BB92D8F06B90070A946 = {
 			isa = PBXGroup;
 			children = (
-				7FFE98B42D89F2A600BDE1C5 /* HotProspects */,
-				7FFE98C52D89F2AB00BDE1C5 /* HotProspectsTests */,
-				7FFE98CF2D89F2AB00BDE1C5 /* HotProspectsUITests */,
-				7FFE98B32D89F2A600BDE1C5 /* Products */,
+				7F234BC42D8F06B90070A946 /* HotProspects */,
+				7F234BD52D8F06BD0070A946 /* HotProspectsTests */,
+				7F234BDF2D8F06BD0070A946 /* HotProspectsUITests */,
 			);
-			sourceTree = "<group>";
-		};
-		7FFE98B32D89F2A600BDE1C5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7FFE98B22D89F2A600BDE1C5 /* HotProspects.app */,
-				7FFE98C22D89F2AB00BDE1C5 /* HotProspectsTests.xctest */,
-				7FFE98CC2D89F2AB00BDE1C5 /* HotProspectsUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FFE98B12D89F2A600BDE1C5 /* HotProspects */ = {
+		7F234BC12D8F06B90070A946 /* HotProspects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FFE98D62D89F2AB00BDE1C5 /* Build configuration list for PBXNativeTarget "HotProspects" */;
+			buildConfigurationList = 7F234BE62D8F06BD0070A946 /* Build configuration list for PBXNativeTarget "HotProspects" */;
 			buildPhases = (
-				7FFE98AE2D89F2A600BDE1C5 /* Sources */,
-				7FFE98AF2D89F2A600BDE1C5 /* Frameworks */,
-				7FFE98B02D89F2A600BDE1C5 /* Resources */,
+				7F234BBE2D8F06B90070A946 /* Sources */,
+				7F234BBF2D8F06B90070A946 /* Frameworks */,
+				7F234BC02D8F06B90070A946 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7FFE98B42D89F2A600BDE1C5 /* HotProspects */,
+				7F234BC42D8F06B90070A946 /* HotProspects */,
 			);
 			name = HotProspects;
 			packageProductDependencies = (
+				7F234BF82D8F11C70070A946 /* CodeScanner */,
 			);
 			productName = HotProspects;
-			productReference = 7FFE98B22D89F2A600BDE1C5 /* HotProspects.app */;
+			productReference = 7F234BC22D8F06B90070A946 /* HotProspects.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7FFE98C12D89F2AB00BDE1C5 /* HotProspectsTests */ = {
+		7F234BD12D8F06BD0070A946 /* HotProspectsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FFE98D92D89F2AB00BDE1C5 /* Build configuration list for PBXNativeTarget "HotProspectsTests" */;
+			buildConfigurationList = 7F234BE92D8F06BD0070A946 /* Build configuration list for PBXNativeTarget "HotProspectsTests" */;
 			buildPhases = (
-				7FFE98BE2D89F2AB00BDE1C5 /* Sources */,
-				7FFE98BF2D89F2AB00BDE1C5 /* Frameworks */,
-				7FFE98C02D89F2AB00BDE1C5 /* Resources */,
+				7F234BCE2D8F06BD0070A946 /* Sources */,
+				7F234BCF2D8F06BD0070A946 /* Frameworks */,
+				7F234BD02D8F06BD0070A946 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FFE98C42D89F2AB00BDE1C5 /* PBXTargetDependency */,
+				7F234BD42D8F06BD0070A946 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7FFE98C52D89F2AB00BDE1C5 /* HotProspectsTests */,
+				7F234BD52D8F06BD0070A946 /* HotProspectsTests */,
 			);
 			name = HotProspectsTests;
 			packageProductDependencies = (
 			);
 			productName = HotProspectsTests;
-			productReference = 7FFE98C22D89F2AB00BDE1C5 /* HotProspectsTests.xctest */;
+			productReference = 7F234BD22D8F06BD0070A946 /* HotProspectsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7FFE98CB2D89F2AB00BDE1C5 /* HotProspectsUITests */ = {
+		7F234BDB2D8F06BD0070A946 /* HotProspectsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FFE98DC2D89F2AB00BDE1C5 /* Build configuration list for PBXNativeTarget "HotProspectsUITests" */;
+			buildConfigurationList = 7F234BEC2D8F06BD0070A946 /* Build configuration list for PBXNativeTarget "HotProspectsUITests" */;
 			buildPhases = (
-				7FFE98C82D89F2AB00BDE1C5 /* Sources */,
-				7FFE98C92D89F2AB00BDE1C5 /* Frameworks */,
-				7FFE98CA2D89F2AB00BDE1C5 /* Resources */,
+				7F234BD82D8F06BD0070A946 /* Sources */,
+				7F234BD92D8F06BD0070A946 /* Frameworks */,
+				7F234BDA2D8F06BD0070A946 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FFE98CE2D89F2AB00BDE1C5 /* PBXTargetDependency */,
+				7F234BDE2D8F06BD0070A946 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7FFE98CF2D89F2AB00BDE1C5 /* HotProspectsUITests */,
+				7F234BDF2D8F06BD0070A946 /* HotProspectsUITests */,
 			);
 			name = HotProspectsUITests;
 			packageProductDependencies = (
 			);
 			productName = HotProspectsUITests;
-			productReference = 7FFE98CC2D89F2AB00BDE1C5 /* HotProspectsUITests.xctest */;
+			productReference = 7F234BDC2D8F06BD0070A946 /* HotProspectsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7FFE98AA2D89F2A600BDE1C5 /* Project object */ = {
+		7F234BBA2D8F06B90070A946 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					7FFE98B12D89F2A600BDE1C5 = {
+					7F234BC12D8F06B90070A946 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					7FFE98C12D89F2AB00BDE1C5 = {
+					7F234BD12D8F06BD0070A946 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 7FFE98B12D89F2A600BDE1C5;
+						TestTargetID = 7F234BC12D8F06B90070A946;
 					};
-					7FFE98CB2D89F2AB00BDE1C5 = {
+					7F234BDB2D8F06BD0070A946 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 7FFE98B12D89F2A600BDE1C5;
+						TestTargetID = 7F234BC12D8F06B90070A946;
 					};
 				};
 			};
-			buildConfigurationList = 7FFE98AD2D89F2A600BDE1C5 /* Build configuration list for PBXProject "HotProspects" */;
+			buildConfigurationList = 7F234BBD2D8F06B90070A946 /* Build configuration list for PBXProject "HotProspects" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 7FFE98A92D89F2A600BDE1C5;
+			mainGroup = 7F234BB92D8F06B90070A946;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7F234BF62D8F10E00070A946 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 7FFE98B32D89F2A600BDE1C5 /* Products */;
+			productRefGroup = 7F234BB92D8F06B90070A946;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FFE98B12D89F2A600BDE1C5 /* HotProspects */,
-				7FFE98C12D89F2AB00BDE1C5 /* HotProspectsTests */,
-				7FFE98CB2D89F2AB00BDE1C5 /* HotProspectsUITests */,
+				7F234BC12D8F06B90070A946 /* HotProspects */,
+				7F234BD12D8F06BD0070A946 /* HotProspectsTests */,
+				7F234BDB2D8F06BD0070A946 /* HotProspectsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7FFE98B02D89F2A600BDE1C5 /* Resources */ = {
+		7F234BC02D8F06B90070A946 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FFE98C02D89F2AB00BDE1C5 /* Resources */ = {
+		7F234BD02D8F06BD0070A946 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FFE98CA2D89F2AB00BDE1C5 /* Resources */ = {
+		7F234BDA2D8F06BD0070A946 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +243,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7FFE98AE2D89F2A600BDE1C5 /* Sources */ = {
+		7F234BBE2D8F06B90070A946 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FFE98BE2D89F2AB00BDE1C5 /* Sources */ = {
+		7F234BCE2D8F06BD0070A946 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FFE98C82D89F2AB00BDE1C5 /* Sources */ = {
+		7F234BD82D8F06BD0070A946 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +267,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7FFE98C42D89F2AB00BDE1C5 /* PBXTargetDependency */ = {
+		7F234BD42D8F06BD0070A946 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FFE98B12D89F2A600BDE1C5 /* HotProspects */;
-			targetProxy = 7FFE98C32D89F2AB00BDE1C5 /* PBXContainerItemProxy */;
+			target = 7F234BC12D8F06B90070A946 /* HotProspects */;
+			targetProxy = 7F234BD32D8F06BD0070A946 /* PBXContainerItemProxy */;
 		};
-		7FFE98CE2D89F2AB00BDE1C5 /* PBXTargetDependency */ = {
+		7F234BDE2D8F06BD0070A946 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FFE98B12D89F2A600BDE1C5 /* HotProspects */;
-			targetProxy = 7FFE98CD2D89F2AB00BDE1C5 /* PBXContainerItemProxy */;
+			target = 7F234BC12D8F06B90070A946 /* HotProspects */;
+			targetProxy = 7F234BDD2D8F06BD0070A946 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7FFE98D42D89F2AB00BDE1C5 /* Debug */ = {
+		7F234BE42D8F06BD0070A946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +343,7 @@
 			};
 			name = Debug;
 		};
-		7FFE98D52D89F2AB00BDE1C5 /* Release */ = {
+		7F234BE52D8F06BD0070A946 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +399,7 @@
 			};
 			name = Release;
 		};
-		7FFE98D72D89F2AB00BDE1C5 /* Debug */ = {
+		7F234BE72D8F06BD0070A946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -398,6 +409,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HotProspects/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR codes.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your QR code.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -416,7 +429,7 @@
 			};
 			name = Debug;
 		};
-		7FFE98D82D89F2AB00BDE1C5 /* Release */ = {
+		7F234BE82D8F06BD0070A946 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -426,6 +439,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HotProspects/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR codes.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We want to save your QR code.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -444,7 +459,7 @@
 			};
 			name = Release;
 		};
-		7FFE98DA2D89F2AB00BDE1C5 /* Debug */ = {
+		7F234BEA2D8F06BD0070A946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,7 +477,7 @@
 			};
 			name = Debug;
 		};
-		7FFE98DB2D89F2AB00BDE1C5 /* Release */ = {
+		7F234BEB2D8F06BD0070A946 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,7 +495,7 @@
 			};
 			name = Release;
 		};
-		7FFE98DD2D89F2AB00BDE1C5 /* Debug */ = {
+		7F234BED2D8F06BD0070A946 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -496,7 +511,7 @@
 			};
 			name = Debug;
 		};
-		7FFE98DE2D89F2AB00BDE1C5 /* Release */ = {
+		7F234BEE2D8F06BD0070A946 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -515,43 +530,62 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FFE98AD2D89F2A600BDE1C5 /* Build configuration list for PBXProject "HotProspects" */ = {
+		7F234BBD2D8F06B90070A946 /* Build configuration list for PBXProject "HotProspects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FFE98D42D89F2AB00BDE1C5 /* Debug */,
-				7FFE98D52D89F2AB00BDE1C5 /* Release */,
+				7F234BE42D8F06BD0070A946 /* Debug */,
+				7F234BE52D8F06BD0070A946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FFE98D62D89F2AB00BDE1C5 /* Build configuration list for PBXNativeTarget "HotProspects" */ = {
+		7F234BE62D8F06BD0070A946 /* Build configuration list for PBXNativeTarget "HotProspects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FFE98D72D89F2AB00BDE1C5 /* Debug */,
-				7FFE98D82D89F2AB00BDE1C5 /* Release */,
+				7F234BE72D8F06BD0070A946 /* Debug */,
+				7F234BE82D8F06BD0070A946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FFE98D92D89F2AB00BDE1C5 /* Build configuration list for PBXNativeTarget "HotProspectsTests" */ = {
+		7F234BE92D8F06BD0070A946 /* Build configuration list for PBXNativeTarget "HotProspectsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FFE98DA2D89F2AB00BDE1C5 /* Debug */,
-				7FFE98DB2D89F2AB00BDE1C5 /* Release */,
+				7F234BEA2D8F06BD0070A946 /* Debug */,
+				7F234BEB2D8F06BD0070A946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FFE98DC2D89F2AB00BDE1C5 /* Build configuration list for PBXNativeTarget "HotProspectsUITests" */ = {
+		7F234BEC2D8F06BD0070A946 /* Build configuration list for PBXNativeTarget "HotProspectsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FFE98DD2D89F2AB00BDE1C5 /* Debug */,
-				7FFE98DE2D89F2AB00BDE1C5 /* Release */,
+				7F234BED2D8F06BD0070A946 /* Debug */,
+				7F234BEE2D8F06BD0070A946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F234BF62D8F10E00070A946 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F234BF82D8F11C70070A946 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F234BF62D8F10E00070A946 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 7FFE98AA2D89F2A600BDE1C5 /* Project object */;
+	rootObject = 7F234BBA2D8F06B90070A946 /* Project object */;
 }
