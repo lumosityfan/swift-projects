@@ -8,15 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
-    let numQuestions = ["5", "10", "20"]
-    @State private var questionAmount = 0
+    @State private var isActive = false
+    let numQuestions = [5, 10, 20]
+    @State private var firstNum = 0 // stores beginning of multiplication table range
+    @State private var lastNum = 0 // stores end of multiplication table range
     
     var body: some View {
-        Form {
-            Picker("Number of questions", selection: $questionAmount) {
-                ForEach(numQuestions, id: \.self) {
-                    Text($0)
-                }.pickerStyle(.segmented)
+        Section {
+            VStack {
+                Spacer()
+                Text("First number of multiplication table range")
+                HStack {
+                    ForEach(2...12, id: \.self) { num in
+                        Button(String(num)) {
+                            firstNum = num
+                        }
+                    }
+                }
+                Text("Last number of multiplication table range")
+                HStack {
+                    ForEach(2...12, id: \.self) { num in
+                        Button(String(num)) {
+                            lastNum = num
+                        }
+                        .background(.red)
+                        .clipShape(.rect(cornerRadius: 20))
+                    }
+                }
             }
         }
     }
